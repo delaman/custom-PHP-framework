@@ -1,0 +1,304 @@
+* {
+    padding: 0;
+    margin: 0;
+} 
+
+body {
+    background: #555;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 11px;
+    line-height: 18px;
+    color: #333333;
+}
+
+img { border: none; }
+a { color: #3E92EA;  }
+a:hover { text-decoration: none; color : #000; }
+
+tr:nth-child(even) {
+    background: #616070;
+}
+tr:nth-child(odd) {
+    background: #60706B;
+}
+
+#itemNotes th {
+    background-color: #3C4464;
+    color: white;
+}
+
+#actualNote {
+    padding: 10px 10px;
+}
+
+#wrapper {
+    margin: 40px auto 0 auto;
+    width: 80%;
+}
+
+#header { 
+    padding-bottom:10px;
+}
+#header h1 {
+    font-size: 26px;
+    font-weight: 100;
+    letter-spacing: -3px;
+    padding: 12px 0 5px 10px;
+}
+#header h1 a {
+    color: #fff;
+    text-decoration: none;
+}
+#header h1 a:hover {
+    color: #fff;
+    text-decoration: none;
+}
+#header h2 {
+    color: black;
+    font-size: 15px;
+    font-weight: 100;
+    padding: 0 0 0 11px;
+    letter-spacing: -1px;
+    line-height: 12px;
+}
+
+#content {
+    background: #ffffff;
+    padding: 10px 20px;
+}
+
+.left {
+    width: 99%;
+    float: left;
+    text-align: justify;
+}
+
+.left h1 {
+    color: black;
+    padding : 10px 0 15px 0;
+    font: bold 310%/100% "Lucida Grande", Arial, sans-serif;
+    position: relative;
+    color: #464646;
+    text-transform: uppercase;
+    letter-spacing: -2px;
+}
+
+.left h1 span{
+    background: url(images/gradient-glossy.png) repeat-x;
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: 18px;
+}
+
+.left h2 {
+    color: black;
+    font-size: 24px;
+    letter-spacing: -2px;
+    font-weight: 100;
+    padding : 10px 0 15px 0;
+}
+
+
+#footer {
+    text-align: center;
+    color: #eee;
+    font-size: 11px;
+    padding: 0 0 10px 0;
+}
+
+
+/****************** Forms *****************/
+fieldset {
+    float: left;
+    clear: both;
+    width: 100%;
+    margin: 0 0 1.5em 0;
+    padding: 0;
+    border: 1px solid #BFBAB0;
+    background-color: #F2EFE9;
+}
+
+legend {
+    margin-left: 1em;
+    color: #000000;
+    font-weight: bold;
+}
+
+fieldset ol {
+    padding: 1em 1em 0 1em;
+    list-style: none;
+}
+
+fieldset li {
+    padding-bottom: 1em;
+}
+
+fieldset.submit {
+    border-style: none;
+}
+
+label {
+    float: left;
+    width: 10em;
+    margin-right: 1em;
+    text-align: right;
+}
+
+fieldset.submit {
+    float: none;
+    width: auto;
+    border-style: none;
+    padding-left: 12em;
+    background-color: transparent;
+}
+
+/******************Menu************************/
+
+#menu {
+    height: 30px;
+    line-height: 30px;
+    background: #33cb98;
+}
+#menu ul {
+    padding-left: 10px;
+    list-style-type: none;
+}
+#menu ul li {
+    display: block;
+    float: left;
+    padding: 0 10px;
+}
+
+.menu {
+    position: relative;
+    z-index: 10;
+}
+
+.menu ul {
+    padding: 0px;
+    margin: 0px;
+    list-style-type: none;
+}
+
+.menu li {
+    float: left;
+    position: relative;
+}
+
+.menu a, .menu a:visited {
+    display: block;
+    text-decoration: none;
+    color: #ffffff;
+    line-height: 30px;
+    margin-right: 5px;
+    padding: 0px 5px 0px 5px;
+}
+
+/* ie6 only */
+.menu ul a:hover{
+    background: url(http://images.dreamhost.com/loginbutton-bg2.gif) 0px 0px;
+}
+
+.menu :hover > a{
+    color: #ffffff;
+    background: url(http://images.dreamhost.com/loginbutton-bg2.gif) 0px 0px;
+}
+
+.menu ul ul a.sub, .menu ul ul a.sub:visited {
+    background: #f3a266 url(http://images.dreamhost.com/dropdownsub-bg.gif) top right no-repeat;
+}
+
+/* ie6 only */
+.menu ul ul a.sub:hover{
+    background: #f3a266 url(http://images.dreamhost.com/dropdownsub-bghover.gif) top right no-repeat;
+}
+
+.menu ul ul :hover > a.sub {
+    background: #f3a266 url(http://images.dreamhost.com/dropdownsub-bghover.gif) top right no-repeat;
+}
+
+.menu ul ul ul a, .menu ul ul ul a:visited {
+    background: #f3a266 url(http://images.dreamhost.com/dropdown-bg.gif) 0px 0px repeat-x;
+}
+
+.menu ul ul ul a:hover {
+    background: #efb68b url(http://images.dreamhost.com/dropdown-bghover.gif) 0px 0px repeat-x;
+}
+
+.menu ul ul {
+    visibility: hidden;
+    position: absolute;
+    height: 0;
+    top: 30px;
+    left: 0;
+    width: 149px;
+    font-size: 0.8em;
+}
+
+.menu ul ul ul{
+    left: 161px;
+    top: 0px;
+    width: 149px;
+    font-size: 1em;
+}
+
+/* ie6 only */
+.menu table {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    border-collapse: collapse;
+}
+
+.menu ul ul a, .menu ul ul a:visited {
+    background: #f3a266 url(http://images.dreamhost.com/dropdown-bg.gif) 0px 0px repeat-x;
+    line-height: 30px;
+    width: 149px;
+    border-top: 1px solid #f3bd95;
+    border-right: 1px solid #ca6f28;
+    border-bottom: 1px solid #ca6f28;
+    border-left: 1px solid #f3bd95;
+}
+
+/* ie6 only */
+.menu a:hover, .menu ul ul a:hover{
+    color: #ffffff;
+    background: #f3a266 url(http://images.dreamhost.com/dropdown-bghover.gif) 0px 0px repeat-x;
+}
+
+.menu ul ul :hover > a{
+    background: #efb68b url(http://images.dreamhost.com/dropdown-bghover.gif) 0px 0px repeat-x;
+}
+
+.menu ul li:hover ul, .menu ul a:hover ul{
+    visibility: visible;
+}
+
+.menu ul :hover ul ul{
+    visibility: hidden;
+}
+
+.menu ul :hover ul :hover ul{
+    visibility: visible;
+}
+
+/************************** Box **************************/
+
+.box {
+    background: #33cb98;
+    color: black;
+    margin:10px;
+    padding:10px;
+    line-height:1.3;
+    overflow:hidden;
+    -moz-border-radius: 8px;
+    -webkit-border-radius: 8px;
+}
+
+#login {
+    float: right;
+    margin-right: 20px;
+    color: red;
+    font-weight: 600;
+}

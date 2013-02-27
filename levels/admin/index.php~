@@ -1,0 +1,14 @@
+<?php
+/* 
+ * To change this template, choose Tools | Templates
+ * and open the template in the editor.
+ */
+
+?>
+Admin welcome page here.
+
+<p>
+Here we can put stuff like stats of the site. ie. how
+many new clients there in the past 24 hours.  How many
+clients were deleted, etc. 
+</p>

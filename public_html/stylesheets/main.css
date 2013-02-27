@@ -1,0 +1,145 @@
+/** RESET BROWSER DEFAULTS **/
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, 
+q, s, samp, strike, strong, sub, sup, tt, var, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td 
+{margin:0;padding:0;border:0;font-weight:inherit;font-style:inherit;font-size:100%;font-family:Verdana, Arial, Helvetica, sans-serif;vertical-align:baseline;}
+
+/**************Start Type Selectors**************/
+
+html { 
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+body { 
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    background: #26FF00;
+    font: 13px/15px Verdana,Arial,Helvetica,sans-serif;
+}
+
+
+
+table, tr, td, tr { 
+    border-collapse: collapse;
+    vertical-align: top;
+    text-align: left;
+    font: 13px/15px Verdana,Arial,Helvetica,sans-serif;
+}
+
+
+a { 
+    color: #00FF07;
+}
+
+/*
+table.bordered tr th, table.bordered tr td { 
+	border: 1px solid #000000;
+}
+*/
+
+h1 {
+    font-size:170%;
+}
+
+h2 {
+    font-size:130%;
+}
+
+/**************End Type Selectors**************/
+
+
+
+
+/**************Start ID Selectors**************/
+
+#content {
+    height: 100%;
+    width: 80%;
+    margin-left:auto;
+    margin-right:auto;
+    background: #FF00DB;
+    padding: 0em;
+}
+
+#header { 
+    height: 5%;
+    text-align: left;
+    background: #1A446C;
+
+}
+
+#header h1 { 
+    margin: 0;
+    padding-top: 15px;
+    font-size:170%;
+    color:#FFFFFF;
+}
+
+
+#footer { 
+    height: 2%;
+    text-align: center;
+    background: #1A446C;
+    color: #D4E6F4;
+}
+
+#pagination .selected { 
+    font-weight: bold;
+    color: #8D0D19;
+}
+
+/************* Start photo.php CSS ****************/
+
+
+#photo {
+
+    margin-left:auto;
+    margin-right:auto;
+
+
+}
+
+#photo h2 { 
+    margin: 0;
+    padding-top: 10%;
+    padding-bottom: 5px;
+    font-size:200%;
+    color:#FFFFFF;
+}	
+
+#photo_img img {
+    width:600px;
+    margin-left:5em;
+    margin-top:5em;
+}
+
+
+#photo_description {
+    margin-left:16em;
+    padding:30px;
+    margin-right:16em;
+    margin-top:4em;
+
+}
+
+/************* End photo.php CSS ****************/
+/**************End ID Selectors**************/
+
+
+
+
+/**************Start Class Selectors**************/
+
+.center {
+    margin-left:auto;
+    margin-right:auto;
+}
+
+
+/**************End Class Selectors**************/

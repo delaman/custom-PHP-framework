@@ -1,0 +1,520 @@
+/*
+ * Pedro de la Cruz
+*/
+
+
+
+/* Reset defaults */
+* {
+    padding: 0;
+    margin: 0;
+} 
+
+body {
+    background: #5B3A17;
+    line-height: 18px;
+
+}
+
+img { 
+     border-style: none;
+}
+
+a { 
+    color: #3E92EA;
+    text-decoration: none;
+}
+
+a:hover { 
+    text-decoration: none; color : #000;
+}
+
+
+/*
+tr:nth-child(even) {
+    background: #616070;
+}
+
+tr:nth-child(odd) {
+    background: #60706B;
+}
+*/
+
+ul {
+    list-style-type: none;
+}
+
+hr {
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+h2 {
+    text-decoration: underline;
+}
+
+
+
+/*************** Item Notes ********************/
+
+#itemNotes th {
+    background-color: #C7CB33;
+    color: black;
+}
+
+#itemNotes tr:nth-child(even) {
+    background: #CB6D33;
+}
+
+#itemNotes tr:nth-child(odd) {
+    background: #3378CB;
+}
+
+/*************** Condition Reports ********************/
+
+#conditionReport th {
+    background-color: #C7CB33;
+    color: black;
+}
+
+#conditionReport tr:nth-child(even) {
+    background: #CB6D33;
+}
+
+#conditionReport tr:nth-child(odd) {
+    background: #3378CB;
+}
+
+
+
+/******************* Contact List ********************/
+
+#contact_list th {
+    background-color: #3C4464;
+    color: white;
+}
+
+#contact_list tr td {
+    background-color: #3C4464;
+    color: white;
+}
+
+#contact_list tr td a {
+    color: white;
+}
+
+.actualNote {
+    padding: 10px 10px;
+}
+
+/******************** Wrapper ********************/
+
+#wrapper {
+    margin: 0 auto 0 auto;
+    width: 100%;
+}
+
+/******************** Header ********************/
+
+#header { 
+    padding-bottom:10px;
+}
+
+
+#header h1 {
+    font-size: 26px;
+    font-weight: 100;
+    letter-spacing: -3px;
+    padding: 12px 0 5px 10px;
+}
+
+
+#header h1 a {
+    color: black;
+    text-decoration: none;
+}
+#header h1 a:hover {
+    color: black;
+    text-decoration: none;
+}
+#header h2 {
+    color: black;
+    font-size: 15px;
+    font-weight: 100;
+    padding: 0 0 0 11px;
+    letter-spacing: -1px;
+    line-height: 12px;
+}
+
+/******************** Content ********************/
+
+#content {
+    background: #5B3A17;
+    padding: 10px 20px;
+    font-family: JuniusStandard;
+    font-size: 1em;
+}
+
+#content h1 {
+    font-family: Dekers;
+    padding: 10px 0 5px 0;
+    font-size: 5em;
+    padding-top: 30px;
+    text-transform: uppercase;
+}
+
+#content h2 {
+    font-family: SouciSansNF;
+    font-size: 2em;
+    padding-top: 25px;
+    padding-bottom: 5px;
+    color: black;
+}
+
+
+/******************** Footer ********************/
+
+#footer {
+    text-align: center;
+    color: black;
+    font-size: 11px;
+    padding: 0 0 10px 0;
+}
+
+
+/****************** Forms *****************/
+fieldset {
+    float: left;
+    clear: both;
+    width: 100%;
+    margin: 0 0 1.5em 0;
+    padding: 0;
+    border: 0px solid #BFBAB0;
+    background-color: #33CB98;
+    -moz-border-radius: 8px;
+    -webkit-border-radius: 8px;
+}
+
+legend {
+    margin-left: 1em;
+    color: #000000;
+    font-weight: bold;
+    padding-top: 20px;
+}
+
+fieldset ol {
+    padding: 1em 1em 0 1em;
+    list-style: none;
+}
+
+fieldset li {
+    padding-bottom: 1em;
+}
+
+fieldset.submit {
+    border-style: none;
+}
+
+label {
+    float: left;
+    width: 10em;
+    margin-right: 1em;
+    text-align: right;
+}
+
+fieldset.submit {
+    float: none;
+    width: auto;
+    border-style: none;
+    padding-left: 12em;
+    background-color: transparent;
+}
+
+.text {
+	border:1px solid #666666;
+	background: #efefef;
+        font-size:14px;
+	color:#000000;
+}
+
+.text:hover{
+    background:#FFFFFF;
+    border: solid 1px #000000;
+}
+
+.text:focus {
+	background:#efefef;
+	border: 1px solid #669900;
+}
+
+.submit {
+	display:block;
+	border:1px solid #666666;
+	background:#efefef;
+	padding:5px 10px 5px 10px;
+	margin:10px 0px 10px 0px;
+}
+
+
+/******************Menu************************/
+
+#menu {
+    
+}
+
+.menu ul li {
+
+    float: left;
+    padding: 0 10px;
+}
+
+.menu {
+    position: relative;
+    z-index: 10;
+    height: 30px;
+    line-height: 30px;
+    background: #33cb98;
+    font-size: medium;
+
+
+
+}
+
+.menu ul {
+    padding: 0px;
+    margin: 0px;
+    list-style-type: none;
+}
+
+.menu li {
+    float: left;
+    position: relative;
+}
+
+.menu a, .menu a:visited {
+    display: block;
+    text-decoration: none;
+    color: black;
+    line-height: 30px;
+    margin-right: 5px;
+    padding: 0px 5px 0px 5px;
+}
+
+/* ie6 only */
+.menu ul a:hover{
+    background: url(images/loginbutton-bg2.gif) 0px 0px;
+}
+
+.menu :hover > a{
+    color: #ffffff;
+    background: url(images/loginbutton-bg2.gif) 0px 0px;
+}
+
+.menu ul ul a.sub, .menu ul ul a.sub:visited {
+    background: #33cb98 url(images/dropdownsub-bg.gif) top right no-repeat;
+}
+
+/* ie6 only */
+.menu ul ul a.sub:hover{
+    background: #33cb98 url(images/dropdownsub-bghover.gif) top right no-repeat;
+}
+
+.menu ul ul :hover > a.sub {
+    background: #33cb98 url(images/dropdownsub-bghover.gif) top right no-repeat;
+}
+
+.menu ul ul ul a, .menu ul ul ul a:visited {
+    background: #33cb98 url(images/dropdown-bg.gif) 0px 0px repeat-x;
+}
+
+.menu ul ul ul a:hover {
+    background: #33cb98 url(images/dropdown-bghover.gif) 0px 0px repeat-x;
+}
+
+.menu ul ul {
+    visibility: hidden;
+    position: absolute;
+    height: 0;
+    top: 30px;
+    left: 0;
+    width: 149px;
+    font-size: 0.8em;
+}
+
+.menu ul ul ul{
+    left: 161px;
+    top: 0px;
+    width: 149px;
+    font-size: 1em;
+}
+
+/* ie6 only */
+.menu table {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    border-collapse: collapse;
+}
+
+.menu ul ul a, .menu ul ul a:visited {
+    background: #33cb98 url(images/dropdown-bg.gif) 0px 0px repeat-x;
+    line-height: 30px;
+    width: 149px;
+    border-top: 1px solid #33cb98;
+    border-right: 1px solid #33cb98;
+    border-bottom: 1px solid #33cb98;
+    border-left: 1px solid #33cb98;
+}
+
+/* ie6 only */
+.menu a:hover, .menu ul ul a:hover{
+    color: #ffffff;
+    background: #33cb98 url(images/dropdown-bghover.gif) 0px 0px repeat-x;
+}
+
+.menu ul ul :hover > a{
+    background: #33cb98 url(images/dropdown-bghover.gif) 0px 0px repeat-x;
+}
+
+.menu ul li:hover ul, .menu ul a:hover ul{
+    visibility: visible;
+}
+
+.menu ul :hover ul ul{
+    visibility: hidden;
+}
+
+.menu ul :hover ul :hover ul{
+    visibility: visible;
+}
+
+/************************** Box **************************/
+
+.box {
+    background: #33cb98;
+    color: black;
+    margin:10px;
+    padding:10px;
+    line-height:1.3;
+    overflow:hidden;
+
+    /*-webkit-box-shadow: 5px 7px 5px #888;*/
+    -moz-border-radius: 8px;
+    -webkit-border-radius: 8px;
+}
+
+/*************** login *****************/
+
+#login {
+    float: right;
+    margin-right: 20px;
+    color: #A233CB;
+}
+
+/************* Contact Header ****************/
+
+#contactHeader {
+    padding-top: 20px;
+    padding-bottom: 40px;
+    text-align: left;
+    line-height: 1.2em;
+    font-size: 3em;
+}
+
+#contactHeader a {
+    color: black;
+}
+
+#contactHeaderSub {
+    font-size: .5em;
+    line-height: 1.2em;
+}
+
+/****************** Inventory ******************/
+.inventoryTitle {
+    text-align: center;
+    font-size: large;
+    font-weight:700;
+    padding-bottom: 10px;
+    color: white;
+    text-transform: uppercase;
+}
+
+/**************** Results *******************/
+#noResults {
+    padding-top: 50px;
+    text-align: center;
+    font-size: 3em;
+
+}
+
+/************** Fieldset boxes *****************/
+.fieldsetAdd {
+    background-color: #A4AEFF;
+}
+
+.fieldsetDelete {
+    background-color: #D44848;
+}
+
+
+
+/************* Priority **********************/
+
+.priority00 {
+    background: #3337CB;
+    color: #CBCB33;
+    font-size:small;
+}
+
+.priority01 {
+    background: #CB9D33;
+    color: #FFFFFF;
+    font-size:small;
+}
+
+.priority02 {
+    background: #CB333D;
+    color: #FFFFFF;
+    font-size:small;
+}
+
+/***************** Details *******************/
+
+#details {
+    color: black;
+
+}
+
+#detailsLeftCol {
+    font-weight: 600;
+}
+
+/***************** Client *******************/
+#client {
+    font-size: 1em;
+    font-weight: 900;
+}
+
+
+/************* Contact Table Excell style **************/
+#contactExcelTable {
+
+    background-color: #33cb98;
+    text-align: center;
+    border-width: thin;
+    border-style: solid;
+    width: 100%;
+    border-collapse: collapse;
+    table-layout: fixed;
+    display: inline;
+
+
+}
+
+#contactExcelTable tr td {
+
+    border-width: thin;
+    border-style: solid;
+    height: 100px;
+}
